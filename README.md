@@ -6,7 +6,16 @@ There are three things necesarry to set this project up (hopefully)
 2. Install your favorite web development IDE. I am a fan of Jetbrains product so I recommend WebStorm with a student license.
 3. Run setup.sh (hopefully this just works, I haven't really tested it, it just runs a bunch of install commands)
 
+If everything worked (only some of the setup.sh stuff is going to be tested by this) then you should be able to run `node server.js` in the directory and go to `http://localhost:3000/` and see `Hello, World!`
+
 ## Development
+
+### Picking up a task
+I want to try an approach most similar to Kanban for development given that we are not working full time on the project. I think it makes more sense to have a queue of things that need to be done and not have timelines or deadlines associated with those (there will be some basic timelines but not at the task level).
+
+You can assume that tasks are ordered by priority in the ready column of the Kanban view in Monday. Pick the task that is closest to the top that you are interesed in working on or are the best person to work on. Whenever you don't have a task and want one, just take it off the top of the queue.
+
+### Working on a task
 The following process will be used (under normal circumstances) for devloping on this repo.
 1. Task will be created in Monday that outlines what should be done for that task
 1. When you begin working on the task, change the lead dev to yourself if it is not already you, add any supporting devs, and change the status to in progress.
@@ -14,7 +23,7 @@ The following process will be used (under normal circumstances) for devloping on
 1. When you complete a task, create a pull request for the changes in your branch, add the link to Monday, change the status in Monday to needs reviews
 1. Once the pull request receives 2 reviews (number might be adjusted), set the status to needs testing and wait for someone to test it.
 
-## Testing
+### Testing
 1. When you see a task with a status of needs testing and no one is assigned to be the tester, assign yourself.
 1. First thing you should do is run the unit tests to make sure they all pass.
 1. After making sure all the unit tests pass, look at what the code was intended to do, and see if it actually works with as many edge cases that you can think of.
