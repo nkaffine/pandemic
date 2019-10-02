@@ -1,0 +1,19 @@
+{
+  "name": "pandemic",
+  "version": "1.0.0",
+  "description": "An online multiplayer version of the board game pandemic",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkaffine/pandemic.git"
+  },
+  "author": "Nick Kaffine, Cody West, and Bryce Russell-Benoit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkaffine/pandemic/issues"
+  },
+  "homepage": "https://github.com/nkaffine/pandemic#readme"
+}
